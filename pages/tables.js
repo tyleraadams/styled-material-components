@@ -53,6 +53,7 @@ const data = [
     date: '03/14/16',
     event: 'Price Change',
     price: '$28,500,000',
+    className: 'magic-cell'
   },
   {
     key: '3289rj92r',

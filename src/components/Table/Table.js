@@ -312,6 +312,7 @@ class Table extends PureComponent {
                     {fields.map(({ key, numerical }, i) => (
                       <Datum
                         key={`{${datum.key}_${key}}`}
+                        className={datum.className}
                         column={key}
                         numerical={numerical}
                         first={i === 0}
